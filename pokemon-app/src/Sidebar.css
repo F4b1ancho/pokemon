@@ -1,0 +1,40 @@
+*{
+    text-decoration: none;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;600&display=swap');
+.sidebar-option{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    
+}
+
+.sidebar-option:hover{
+  
+
+ 
+  
+    
+}
+.icon{
+    width: 4vw;
+}
+
+p{
+    font-weight: 200;
+}
+.region-container{
+    padding-top: 15px;
+    text-decoration: none;
+    font-family:Poppins, sans-serif ;
+    font-size: 15px;
+    font-weight:100;
+    color: black;
+   
+
+   
+}
+
+  

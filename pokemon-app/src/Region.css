@@ -1,0 +1,32 @@
+.location-container{
+    display: grid;
+    width: 20vw;
+    height: 30vh;
+    background-color: rgb(207, 207, 207);
+    border-radius: 25px; 
+    justify-content: center;
+    grid-auto-columns: 20vw;
+    grid-template-rows: 20vh;
+    align-items: center;
+    overflow-y: hidden;
+    position: relative;
+}
+
+.location-pic{
+    width: 20vw;
+}
+
+.info-location{
+    width: 20vw;
+    height: 15vh;
+    border-radius: 15px;
+    text-align: left;
+    text-transform: capitalize;
+    margin:0px;
+    background-color: rgb(207, 207, 207);
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 20vw;
+    grid-template-rows: 10vh;
+}

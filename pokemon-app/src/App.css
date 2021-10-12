@@ -1,0 +1,136 @@
+body{
+  background-color: #434343;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;600&display=swap');
+.table{
+  display: grid;
+  justify-content: center;
+  padding-top: 3vh;
+  grid-template-columns: repeat(auto-fit,400px);
+  gap:30px;
+  height: 69vh;
+  width: 93.5vw;
+  padding: 3vh;
+  grid-area: 4vw;
+ 
+  background-color: #BABABA;
+  overflow-y: scroll;
+  border-radius: 15px;
+
+}
+
+.empty{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 69vh;
+  width: 96.8vw;  
+ 
+  background-color: #BABABA;
+  overflow-y: scroll;
+  border-radius: 15px;
+
+}
+.empty h2{
+  width:auto ;
+}
+::-webkit-scrollbar {display: none;}
+
+.regions{
+  display: grid;
+  justify-content: center;
+  padding-top: 3vh;
+  grid-template-columns: 21vw 21vw 21vw 21vw ;
+  grid-template-rows:1fr ;
+  grid-row-gap:2vh;
+  height: 69vh;
+  width: 93.5vw;
+  background-color: #BABABA;
+  overflow-y: scroll;
+  border-radius: 15px;
+
+}
+
+.texture{
+  display:flex;
+  align-items: center;
+  width: 50vw;
+  height: 20vh;
+  border-radius: 15px 55px 55px 15px;
+}
+
+
+.title{
+  font-family: 'Poppins', sans-serif, thin;
+ position: relative;
+ left:-2vw;
+}
+.header{
+  display:flex;
+  justify-content:flex-start;
+  height: 15vh;
+  background-color: rgb(185, 46, 46);
+  border-radius: 65px 20px 20px 65px; 
+  align-items: center;
+  margin-left: 1.7vw;
+  margin-right: 1.7vw;
+  margin-top: 1.3vw;
+
+}
+
+.buttons{
+  display: flex;
+  width: 15vw;
+  height: 10vh;
+  justify-content: space-around;
+  padding-left: 10vw;
+  text-align: center;
+  text-decoration: none;
+  align-items: center;
+}
+
+.header h1{
+  margin:3px;
+}
+
+.body{
+  display: grid;
+  grid-template-columns: 7vw 36vw 50vw;
+  grid-gap: 25px;
+  padding-top: 25px;
+  padding-left: 25px;
+}
+
+.sidebar{
+  width: 7vw;
+  height: 70vh;
+  background-color: #BABABA;
+  border-radius: 15px;
+  display: grid;
+  grid-template-rows: 12vh 12vh;
+  justify-content: center;
+  padding-top: 2vh;
+}
+
+.search{
+  background-color: rgb(204, 204, 204);
+  height: 6vh;
+  width: 20vw;
+  border-radius: 1vw;
+  border:none;
+}
+
+.search:focus {
+  padding-left: 10px;
+  background-color:rgb(180, 180, 180);
+  border-color: rgb(173, 173, 173);
+  outline:none
+}
+
+.logo{
+  height: 15vh;
+  padding-right: 3vw;
+  position: relative;
+  left: -0.5vw;
+}

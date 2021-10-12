@@ -1,0 +1,40 @@
+.container-stats{
+ width: 6vw;
+ height: 12vh;
+ background-color: rgb(255, 255, 255);
+ border-radius: 15px;
+ font-size: 15px;
+ display: grid;
+ grid-template-columns: 1fr;
+ grid-template-rows: 4vh 5vh 2vh;
+ line-height: 2vh;
+ font-size: 12px;
+ text-align: center;
+
+    
+}
+
+.container-stats h2{
+    width: 6vw;
+    text-align: center;
+    font-size:1px;
+}
+
+.stats-icon{
+    display: flex;
+    justify-content: center;
+    height: 2vw;
+}
+
+.stats-name{
+    font-size: 11px;
+    text-overflow: ellipsis;
+    text-align: center;
+    justify-content: center;
+    white-space:pre-line;
+    
+}
+.image-stats{
+    display: flex;
+    justify-content: center;
+}
